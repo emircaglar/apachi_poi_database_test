@@ -28,8 +28,6 @@ public class _05_Apachi_POI_Neue_Excel_Schreiben {
              cell.setCellValue(i);
         }
 
-
-
         FileOutputStream fileOutputStream = new FileOutputStream("src/test/java/Apachi_POI/recources/neueExcel.xlsx");
         workbook1.write(fileOutputStream);
         fileOutputStream.close();
